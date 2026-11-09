@@ -1,6 +1,6 @@
 class CfgPatches {
-    class srg_blood {
-        name = "SRG Blood";
+    class srg_ace_blood {
+        name = "SRG ACE Blood";
         author = "STRATRECGRU";
         units[] = {};
         weapons[] = {};
@@ -10,7 +10,7 @@ class CfgPatches {
 };
 
 class Extended_PreInit_EventHandlers {
-    class srg_blood {
-        init = "call compileScript ['\srg_blood\XEH_preInit.sqf']";
+    class srg_ace_blood {
+        init = "call compileScript ['\srg_ace_blood\XEH_preInit.sqf']";
     };
 };

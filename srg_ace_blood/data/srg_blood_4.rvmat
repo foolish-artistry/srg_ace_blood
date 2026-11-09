@@ -1,5 +1,5 @@
 class StageTI {
-    texture = "srg_blood\data\srg_blood_4_ti_ca.paa";
+    texture = "srg_ace_blood\data\srg_blood_4_ti_ca.paa";
 };
 
 ambient[] = {1.0, 1.0, 1.0, 1.0};
@@ -57,7 +57,7 @@ class Stage4 {
 };
 
 class Stage5 {
-    texture = "srg_blood\data\srg_blood_smdi.paa";
+    texture = "srg_ace_blood\data\srg_blood_smdi.paa";
     uvSource = "tex";
     class uvTransform {
         aside[] = {1.0, 0.0, 0.0};

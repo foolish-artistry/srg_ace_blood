@@ -27,7 +27,7 @@ Each variant has its own model, color texture, thermal texture, and material.
 ## Repository layout
 
 ```
-srg_blood/                 addon folder, pack this as the PBO
+srg_ace_blood/             addon folder, pack this as the PBO
   config.cpp               CfgPatches, preInit hook
   XEH_preInit.sqf          writes the SRG models into ace_medical_blood_models
   data/
@@ -42,9 +42,9 @@ source/textures/           editable PNG sources for the PAA textures
 
 ## Building
 
-Pack `srg_blood/` as `srg_blood.pbo`. The PBO must be named `srg_blood` with no prefix, since script and asset paths are written as `\srg_blood\...`.
+Pack `srg_ace_blood/` as `srg_ace_blood.pbo`. The PBO must be named `srg_ace_blood` with no prefix, since script and asset paths are written as `\srg_ace_blood\...`.
 
-To change a texture, edit the PNG in `source/textures/`, convert it to PAA with the same name, and replace the file in `srg_blood/data/`.
+To change a texture, edit the PNG in `source/textures/`, convert it to PAA with the same name, and replace the file in `srg_ace_blood/data/`.
 
 ## Compatibility
 
@@ -53,7 +53,7 @@ Works with anything that uses ACE3's own blood drop spawning, including ACE medi
 If a future ACE update renames or restructures `ace_medical_blood_models`, the mod leaves ACE's default drops in place and logs this to the RPT:
 
 ```
-[srg_blood] ace_medical_blood_models not defined, ACE medical_blood missing or changed. Skipping.
+[srg_ace_blood] ace_medical_blood_models not defined, ACE medical_blood missing or changed. Skipping.
 ```
 
 ## License

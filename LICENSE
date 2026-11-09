@@ -1,8 +1,8 @@
 srg_ace_blood
 Copyright (C) 2026 Matthew Carroll (STRATRECGRU)
 
-Portions of this project (the drop models in srg_blood/data/*.p3d, the
-materials in srg_blood/data/*.rvmat and srg_blood/data/srg_blood_smdi.paa)
+Portions of this project (the drop models in srg_ace_blood/data/*.p3d, the
+materials in srg_ace_blood/data/*.rvmat and srg_ace_blood/data/srg_blood_smdi.paa)
 are derived from ACE3 (https://github.com/acemod/ACE3),
 Copyright (C) 2015 Felix "KoffeinFlummi" Wiegand and the ACE3 contributors,
 licensed under the GNU General Public License v2.
