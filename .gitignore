@@ -1,0 +1,13 @@
+# Build output
+*.pbo
+*.bisign
+*.bikey
+*.biprivatekey
+/@*/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.bak
