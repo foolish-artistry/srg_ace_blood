@@ -38,6 +38,7 @@ srg_ace_blood/             addon folder, pack this as the PBO
     srg_blood_smdi.paa     specular, shared
     model.cfg
 source/textures/           editable PNG sources for the PAA textures
+tools/png2paa.py           PNG to PAA converter used for the textures
 ```
 
 ## Building
@@ -45,6 +46,13 @@ source/textures/           editable PNG sources for the PAA textures
 Pack `srg_ace_blood/` as `srg_ace_blood.pbo`. The PBO must be named `srg_ace_blood` with no prefix, since script and asset paths are written as `\srg_ace_blood\...`.
 
 To change a texture, edit the PNG in `source/textures/`, convert it to PAA with the same name, and replace the file in `srg_ace_blood/data/`.
+
+Convert with `tools/png2paa.py` or BI's ImageToPAA. Some converters brighten pixels along transparent edges, which shows in game as white specks around the drops.
+
+```
+pip install numpy scipy pillow python-lzo
+python tools/png2paa.py source/textures/srg_blood_1_ca.png srg_ace_blood/data/srg_blood_1_ca.paa
+```
 
 ## Compatibility
 
